@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.main-Color {
+    color: #3E9888;
+}
+
+/*============================================== HEADER ======================================*/
+
+.navbar-brand img {
+    height: 33px;
+    margin-bottom: 10px;
+}
+
+.dropdown-divider {
+    border-color: black;
+}
+
+.col-md-12 nav {
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 2%;
+}
+
+.tombolSignIn {
+    background-color: #3E9888;
+    border-color: #3E9888;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tombolSignIn:hover {
+    background-color: #3E9899;
+    border-color: #3E9899;
+}
+
+.navbar {
+    padding: .2rem 1rem;
+}
+
+/*============================================== HEADLINE ======================================*/
+
+.slider{
+    padding-right: 0;
+}
+
+.headline1 .slider img {
+    height: 70%;
+}
+
+.headline1 .jumbotron p {
+    margin-top: 70px;
+    width: 70%;
+    font-size: 15px;
+}
+
+.headline1 .social-media {
+    margin-top: 120px;
+}
+
+.headline1 .social-media a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.headline1 .social-media i:hover,  .headline1 .social-media a:hover{
+        color: #3E9888;
+        cursor: pointer;
+        text-decoration: underline;
+}
+
+.first {
+    order: 1;
+}
+
+.second {
+    order: 2;
+}
+
+/*============================================== SERVICES ======================================*/
+
+.services img {
+    height: 70px;
+}
+
+.services .card-body {
+    padding-right: 20% !important;
+    margin-bottom: 60px;
+}
+
+/*============================================== FRAME YOUTUBE ======================================*/
+
+.frame .col-md-3 p {
+    font-size: 12px;
+}
+
+.frame .col-md-3 p .text-muted {
+    margin-bottom: 200px !important;
+}
+
+@media only screen and (max-width: 575px) {
+    .first {
+        order: 2;
+    }
+
+    .second {
+        order: 1;
+    }
+}
